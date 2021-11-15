@@ -7,6 +7,7 @@ int main(int argc, char** argv){
     // driving code
 
     cout << "hima el top";
+    cout << "playing lo at night";
     // int arr[] = {5, 3, 2};
     // MyArray<int>* my_arr = new MyArray<int>(arr, 3);
     // my_arr->push(5);
