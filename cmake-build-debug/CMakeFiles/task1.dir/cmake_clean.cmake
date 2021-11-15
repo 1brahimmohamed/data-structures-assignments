@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/task1.dir/MyArray.cpp.o"
   "CMakeFiles/task1.dir/main.cpp.o"
+  "CMakeFiles/task1.dir/test.cpp.o"
   "task1"
   "task1.pdb"
 )
