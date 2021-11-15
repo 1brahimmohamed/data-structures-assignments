@@ -69,7 +69,13 @@
 
     template<class T>
     T MyArray<T>::pop() {
+        T deletedElement = data[size-1];
 
+        size--;
+        if (size == capacity/4)                    // check if size = 1/4 capacity
+            capacityShrink();                      // halve the capacity
+
+        return deletedElement;
     }
 
     template<class T>
@@ -81,7 +87,7 @@
             data[i] = data[i - 1];
 
         // insert element at index
-        data[index - 1] = element;
+        data[index] = element;
     }
 
     template<class T>
