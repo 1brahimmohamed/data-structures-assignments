@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.cpp
+MyArray.h
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h
+
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h
+MyArray.cpp
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.cpp
+
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/main.cpp
+bits/stdc++.h
+-
+MyArray.h
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h
+
