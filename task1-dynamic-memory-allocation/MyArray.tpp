@@ -20,7 +20,11 @@
     template<class T>
     MyArray<T>::MyArray(T *arr, int size) {
         this -> size = size;
-        capacity = size;
+        if(size > INITIAL_CAPACITY)
+            capacity = INITIAL_CAPACITY*2;
+        else
+            capacity = INITIAL_CAPACITY;
+
         data = new T [capacity];
 
         for (int i = 0; i < size; ++i) {
@@ -69,13 +73,19 @@
 
     template<class T>
     T MyArray<T>::pop() {
-        T deletedElement = data[size-1];
 
-        size--;
-        if (size == capacity/4)                    // check if size = 1/4 capacity
-            capacityShrink();                      // halve the capacity
+        if (size == 0)
+            return -1;
 
-        return deletedElement;
+        else{
+            T deletedElement = data[size-1];
+            size--;
+            if (size == capacity/4)                    // check if size = 1/4 capacity
+                capacityShrink();                      // halve the capacity
+
+            return deletedElement;
+        }
+
     }
 
     template<class T>
@@ -91,13 +101,18 @@
     }
 
     template<class T>
-    void MyArray<T>::remove(int index) {
-        size--;
-        if (size == capacity/4)                    // check if size = 1/4 capacity
-            capacityShrink();                      // halve the capacity
-
-        for (int i = index; i <= size; i++)
-            data[i] = data[i + 1];
+    T MyArray<T>::remove(int index) {
+        if(index >= size || size == 0)
+            return -1;
+        else{
+            T deletedElement = data[index];
+            size--;
+            for (int i = index; i <= size; i++)
+                data[i] = data[i + 1];
+            if (size == capacity/4)                    // check if size = 1/4 capacity
+                capacityShrink();                      // halve the capacity
+            return deletedElement;
+        }
     }
 
     /*

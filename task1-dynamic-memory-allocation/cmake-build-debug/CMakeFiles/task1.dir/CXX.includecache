@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.cpp
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h
+MyArray.tpp
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.tpp
+
+/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.tpp
 MyArray.h
 /home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h
 iostream
 -
-
-/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h
-MyArray.cpp
-/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.cpp
 
 /home/ibrahim/MyFolder/Projects/C++/Assignements/task1/main.cpp
 bits/stdc++.h

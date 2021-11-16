@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.cpp">
+		<Unit filename="/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h">
 			<Option target="task1"/>
 		</Unit>
-		<Unit filename="/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.h">
+		<Unit filename="/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/MyArray.tpp">
 			<Option target="task1"/>
 		</Unit>
 		<Unit filename="/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/main.cpp">

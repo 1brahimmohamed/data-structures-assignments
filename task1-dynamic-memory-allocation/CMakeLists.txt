@@ -3,4 +3,4 @@ project(task1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(task1 main.cpp MyArray.cpp MyArray.h test.cpp)
+add_executable(task1 main.cpp MyArray.tpp MyArray.h test.cpp)

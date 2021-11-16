@@ -129,30 +129,6 @@ task1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
 .PHONY : task1/fast
 
-MyArray.o: MyArray.cpp.o
-.PHONY : MyArray.o
-
-# target to build an object file
-MyArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/MyArray.cpp.o
-.PHONY : MyArray.cpp.o
-
-MyArray.i: MyArray.cpp.i
-.PHONY : MyArray.i
-
-# target to preprocess a source file
-MyArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/MyArray.cpp.i
-.PHONY : MyArray.cpp.i
-
-MyArray.s: MyArray.cpp.s
-.PHONY : MyArray.s
-
-# target to generate assembly for a file
-MyArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/MyArray.cpp.s
-.PHONY : MyArray.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -210,9 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... task1"
-	@echo "... MyArray.o"
-	@echo "... MyArray.i"
-	@echo "... MyArray.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

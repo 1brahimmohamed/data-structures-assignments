@@ -19,11 +19,11 @@
         void push(T element);
         T pop();
         void insert(int index, T element);
-        void remove(int index);
+        T remove(int index);
         void print();
         int get_size();
         int get_capacity();
     };
 
-    #include "MyArray.cpp"
+    #include "MyArray.tpp"
     #endif
