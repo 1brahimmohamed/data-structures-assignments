@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/main.cpp" "/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/cmake-build-debug/CMakeFiles/task1.dir/main.cpp.o"
-  "/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/test.cpp" "/home/ibrahim/MyFolder/Projects/C++/Assignements/task1/cmake-build-debug/CMakeFiles/task1.dir/test.cpp.o"
+  "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/dele.cpp" "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/cmake-build-debug/CMakeFiles/task1.dir/dele.cpp.o"
+  "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/main.cpp" "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/cmake-build-debug/CMakeFiles/task1.dir/main.cpp.o"
+  "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/test.cpp" "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/cmake-build-debug/CMakeFiles/task1.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

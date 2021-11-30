@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/task1.dir/main.cpp.o CMakeFiles/task1.dir/test.cpp.o -o task1 
+/usr/bin/c++ -g CMakeFiles/task1.dir/main.cpp.o CMakeFiles/task1.dir/test.cpp.o CMakeFiles/task1.dir/dele.cpp.o -o task1 

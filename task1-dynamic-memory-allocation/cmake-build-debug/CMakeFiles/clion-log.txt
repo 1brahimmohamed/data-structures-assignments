@@ -1,4 +1,4 @@
-/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/ibrahim/MyFolder/Projects/C++/Assignements/task1
+/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ibrahim/MyFolder/Projects/C++/Assignements/task1/cmake-build-debug
+-- Build files have been written to: /home/ibrahim/MyFolder/Projects/C++/Assignements/Data Structures/task1-dynamic-memory-allocation/cmake-build-debug

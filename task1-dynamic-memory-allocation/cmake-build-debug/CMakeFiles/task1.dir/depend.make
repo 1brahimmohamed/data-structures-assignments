@@ -6,4 +6,7 @@ CMakeFiles/task1.dir/main.cpp.o: \
  ../MyArray.tpp \
  ../main.cpp
 CMakeFiles/task1.dir/test.cpp.o: \
+ ../MyArray.h \
+ ../MyArray.tpp \
+ ../catch.hpp \
  ../test.cpp
